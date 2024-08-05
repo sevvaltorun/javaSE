@@ -1,1 +1,1 @@
-(GitHub Adress)[https://github.com/sevvaltorun/javaSE]
+(GitHub Address)[https://github.com/sevvaltorun/javaSE]
