@@ -12,6 +12,7 @@ public class _3_Variables {
 
         int _number=90;
         System.out.println(_number);
+        System.out.println(_number);
 
 
 
