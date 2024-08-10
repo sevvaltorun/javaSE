@@ -21,10 +21,10 @@ public class _4_DataTypesAll {
         //char
         char  c5='T';
 
-        System.out.println(c5);
-        System.out.println(i1);
-        System.out.println(b3);
-        System.out.println(b3Data);
+//        System.out.println(c5);
+//        System.out.println(i1);
+//        System.out.println(b3);
+//        System.out.println(b3Data);
 
         // int data = null; YAPAMAYIZ :)
 
@@ -32,15 +32,20 @@ public class _4_DataTypesAll {
         //Tam sayılar
         //8 bit = 1 byte
         Byte b11= 127;
-      //  Byte b12= new Byte(1);
+
+        byte bytePrimitive=1;
+        Byte b12= new Byte(bytePrimitive);
+        System.out.println(b12);
         Short s11=32767;
         Integer i11= 2147483647;
-       // Integer i12= new Integer(41);
+        Integer i12= new Integer(41);
         Long l11=32768L;
 
         //Virgüllü Sayılar
         Float f11= 14.53f;
         Double d11 = 14.53;
+        Double d2Data= new Double(14.53);
+        System.out.println(d2Data);
 
         //boolean
         Boolean b13= false;
@@ -48,8 +53,14 @@ public class _4_DataTypesAll {
 
         //char
         Character c11='S';
+        System.out.println(c11);
 
         Integer data11= null; //WRAPPER DA NULL OLUR
 
+        //boxing: primitive bir türü wrapper türüne çevirmek
+        int primitiveNumber=22;
+        Integer wrapperNumber=primitiveNumber;
+        System.out.println(wrapperNumber);
+        System.out.println(primitiveNumber);
     }
  }
