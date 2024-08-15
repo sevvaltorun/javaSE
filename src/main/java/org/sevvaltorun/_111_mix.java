@@ -6,7 +6,7 @@ public class _111_mix {
         System.out.println(vocabulary);
 
         System.out.println("Harf Sayısı:" + vocabulary.length());
-        System.out.println("Traşlanmış Harf Sayısı: " + vocabulary.trim().length());
+        System.out.println("Traşlanmış Harf Sayısı: (boşluklar yok) " + vocabulary.trim().length());
         System.out.println("Büyük Harfler: " + vocabulary.toUpperCase());
         System.out.println("Küçük Harfler: " + vocabulary.toLowerCase());
         System.out.println("Sağdan Arama:" + vocabulary.indexOf("ceyda"));
@@ -29,9 +29,15 @@ public class _111_mix {
         System.out.println(vocabulary.endsWith("svvl")); // boşluk iile bitiyo
 
         System.out.println(vocabulary.replace(vocabulary,"change it"));
+        //replace değişiklik yapmamızı sağladı, vocabulary'deki cümleleri change it ile değiştirerek yazdı.
+        //kalıcı değil!!
+        //manipülasyon==değişiklik
         System.out.println(vocabulary);
 
         String[] allData=vocabulary.split(" ");
+        //boşluğa göre parçalayacak ve onları dizi elemanı yapacak
+
+
 
 
 

@@ -13,7 +13,7 @@ public class _8_Scanner {
 
         System.out.println("Bir sayı giriniz:");
         int sayi = scanner.nextInt();
-        System.out.println("Girdiğiniz sayi: "+sayi);
+        System.out.println("Girdiğiniz sayi: " +sayi);
 
         //kullanım sınrasu scanner nesnesini kapatmak iyi bir uygulamadır.
          scanner.close();

@@ -11,8 +11,8 @@ public class _2_Psvm {
         System.out.println(number);
         number--;
         System.out.println(number);
+
         number-=10;
-        System.out.println(number);
         System.out.println(number);
 
         int number2=20;

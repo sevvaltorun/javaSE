@@ -34,8 +34,8 @@ public class _11_CastAndSystem {
         String javaVerison = System.getProperty("java.version");
         System.out.println("Java Version:" + javaVerison);
 
-        long suankiZaman = System.currentTimeMillis();
-        System.out.println("Su anki zaman:" + suankiZaman);
+        long suanKiZaman = System.currentTimeMillis();
+        System.out.println("Su anki zaman:" + suanKiZaman);
 
         System.out.println(Math.floor(3.9)); //aşağı yuvarlar ->3
         System.out.println(Math.ceil(3.1)); //yukarı yuvarlar ->4
