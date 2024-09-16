@@ -1,6 +1,6 @@
 package org.sevvaltorun;
 
-import java.sql.SQLOutput;
+
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
@@ -35,10 +35,10 @@ public class _21_LocalDate {
 
         System.out.println("-----------------------------------------");
         //Pattern
-//        DateTimeFormatter dateTimeFormatter =DateTimeFormatter.ofPattern("dd/MMMM/yyyy HH:mm:ss");
-//        // DateTimeFormatter dateTimeFormatter =DateTimeFormatter.ofPattern("dd-MMMM-yyyy HH:mm:ss"); - or / same
-//        String date= dateTimeFormatter.format(LocalDateTime.now());
-//        System.out.println(date);
+        DateTimeFormatter dateTimeFormatter =DateTimeFormatter.ofPattern("dd/MMMM/yyyy HH:mm:ss");
+        // DateTimeFormatter dateTimeFormatter =DateTimeFormatter.ofPattern("dd-MMMM-yyyy HH:mm:ss"); - or / same
+        String date= dateTimeFormatter.format(LocalDateTime.now());
+        System.out.println(date);
 
 
     }
